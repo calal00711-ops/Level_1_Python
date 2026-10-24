@@ -1,2 +1,4 @@
 # Level_1_Python
 A collection of beginner Python projects showcasing problem-solving and core programming concepts. Features a Password Generator, Temperature Converter, Calculator, and Word Counter built using functions, loops, conditionals, and dictionaries.
+# Word_Counter
+Word Counter is a Python-based text analysis utility that processes user input, normalizes text by converting it to lowercase, tokenizes words using string manipulation techniques, and calculates word frequency using a dictionary data structure. This project demonstrates fundamental data analysis concepts, including data aggregation, key-value storage, iteration, and frequency distribution reporting. It serves as an introduction to text processing, natural language data handling, and computational analysis workflows commonly used in analytics and cybersecurity investigations.
