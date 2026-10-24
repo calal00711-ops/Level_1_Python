@@ -1,0 +1,22 @@
+# Word Counter
+# Level 1: Dictionaries, string processing
+
+def count_words(text):
+    words = text.lower().split()
+    counts = {}
+
+    for word in words:
+        counts[word] = counts.get(word, 0) + 1
+
+    return counts
+
+def main():
+    print("=== Word Counter ===")
+    text = input("Enter text: ")
+    results = count_words(text)
+
+    print("\nWord Frequency:")
+    for word, count in results.items():
+        print(f"{word}: {count}")
+
+main()
