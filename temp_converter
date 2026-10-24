@@ -1,0 +1,15 @@
+# Temperature Converter
+# Level 1: Inputs, math operations, formatted output
+
+def convert_temperature():
+    print("=== Temperature Converter ===")
+    temp_f = float(input("Enter temperature in Fahrenheit: "))
+
+    temp_c = (temp_f - 32) * 5/9
+    temp_k = temp_c + 273.15
+
+    print(f"\nResults:")
+    print(f"Celsius: {temp_c:.2f}")
+    print(f"Kelvin:  {temp_k:.2f}")
+
+convert_temperature()
